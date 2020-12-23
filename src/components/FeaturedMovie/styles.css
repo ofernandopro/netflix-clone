@@ -1,0 +1,15 @@
+.featured {
+  height: 100vh;
+}
+
+.featured-vertical {
+  width: inherit; /* Herda o tamanho da div de classe featured */
+  height: inherit;
+  background: linear-gradient(to top, #141414 10%, transparent 90%);
+}
+
+.featured-horizontal {
+  width: inherit; /* Herda o tamanho da div de classe featured */
+  height: inherit;
+  background: linear-gradient(to right, #141414 30%, transparent 70%);
+}
