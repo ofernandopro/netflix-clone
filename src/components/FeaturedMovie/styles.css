@@ -11,5 +11,5 @@
 .featured-horizontal {
   width: inherit; /* Herda o tamanho da div de classe featured */
   height: inherit;
-  background: linear-gradient(to right, #141414 30%, transparent 70%);
+  background: linear-gradient(to right, #141414 25%, transparent 75%);
 }
