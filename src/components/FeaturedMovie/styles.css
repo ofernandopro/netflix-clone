@@ -56,7 +56,7 @@
 .featured-watchbutton,
 .featured-infobutton{
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   padding: 12px 25px;
   border-radius: 5px;
@@ -85,4 +85,28 @@
   margin-top: 15px;
   font-size: 18px;
   color: #999;
+}
+
+@media (max-width: 760px) {
+  .featured {
+    height: 90vh;
+  }
+  .featured-name {
+    font-size: 40px;
+  }
+  .featured-info {
+    font-size: 16px;
+  }
+  .featured-description {
+    font-size: 15px;
+    max-width: 100%;
+    margin-right: 30px;
+  }
+  .featured-watchbutton,
+  .featured-infobutton {
+    font-size: 16px;
+  }
+  .featured-genres {
+    font-size: 15px;
+  }
 }
