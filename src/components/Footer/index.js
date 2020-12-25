@@ -9,10 +9,18 @@ export default () => {
   return (
     <footer>
       <div className="social-media">
-        <FacebookIcon style={{ fontSize: 35, marginRight: 10, cursor: 'pointer' }} />
-        <InstagramIcon style={{ fontSize: 35, marginRight: 10, cursor: 'pointer' }} />
-        <TwitterIcon style={{ fontSize: 35, marginRight: 10, cursor: 'pointer' }} />
-        <YouTubeIcon style={{ fontSize: 35, marginRight: 10, cursor: 'pointer' }} />
+        <a href="https://www.facebook.com/netflixbrasil" target="_blank">
+          <FacebookIcon style={{ fontSize: 35, marginRight: 10, cursor: 'pointer' }} />
+        </a>
+        <a href="https://www.instagram.com/NetflixBrasil/" target="_blank">
+          <InstagramIcon style={{ fontSize: 35, marginRight: 10, cursor: 'pointer' }} />
+        </a>
+        <a href="https://twitter.com/NetflixBrasil" target="_blank">
+          <TwitterIcon style={{ fontSize: 35, marginRight: 10, cursor: 'pointer' }} />
+        </a>
+        <a href="https://www.youtube.com/user/NetflixBRA" target="_blank">
+          <YouTubeIcon style={{ fontSize: 35, marginRight: 10, cursor: 'pointer' }} />
+        </a>
       </div>
 
       <div className="footer-links">

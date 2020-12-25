@@ -58,6 +58,7 @@
 
 .see-all-arrow-right {
   opacity: 0;
+  cursor: pointer;
 }
 
 .movieRow:hover .movieRow-left,
