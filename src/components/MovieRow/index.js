@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './styles.css';
 import NavigateBeforeRoundedIcon from '@material-ui/icons/NavigateBeforeRounded';
 import NavigateNextRoundedIcon from '@material-ui/icons/NavigateNextRounded';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
 export default ({ title, items }) => {
   const [scrollX, setScrollX] = useState(0);
@@ -25,7 +26,7 @@ export default ({ title, items }) => {
 
   return (
     <div className="movieRow">
-      <h2>{title}</h2>
+      <h2>{title} <ArrowForwardIosIcon className="see-all-arrow-right" style={{ fontSize: 15, display: 'inline-block' }} /></h2>
 
       <div className="movieRow-left" onClick={handleLeftArrow}>
         <NavigateBeforeRoundedIcon style={{ fontSize: 50 }} />

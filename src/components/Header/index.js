@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 
 export default ({ black }) => {
   return (
@@ -13,6 +14,7 @@ export default ({ black }) => {
         <a href="/">
           <img src="https://i.pinimg.com/originals/b6/77/cd/b677cd1cde292f261166533d6fe75872.png" alt="User" />
         </a>
+        <ArrowDropDownIcon style={{ fontSize: 30, cursor: 'pointer' }} />
       </div>
     </header>
   );

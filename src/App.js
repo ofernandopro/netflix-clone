@@ -4,6 +4,7 @@ import Tmdb from './Tmdb';
 import MovieRow from './components/MovieRow';
 import FeaturedMovie from './components/FeaturedMovie';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 export default () => {
 
@@ -59,11 +60,7 @@ export default () => {
         ))}
       </section>
 
-      <footer>
-        Feito com <span role="img" aria-label="coração">❤</span> por Fernando Moreira<br />
-        Direitos de imagem para Netflix<br />
-        Dados pêgos do site themoviedb.org
-      </footer>
+      <Footer />
 
       {movieList.length <= 0 &&
         <div className="loading">

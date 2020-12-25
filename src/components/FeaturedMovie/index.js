@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+import InfoRoundedIcon from '@material-ui/icons/InfoRounded';
 
 export default ({ item }) => {
   console.log(item);
@@ -32,7 +33,7 @@ export default ({ item }) => {
           <div className="featured-description">{description}</div>
           <div className="featured-buttons">
             <a href={`/watch/${item.id}`} className="featured-watchbutton">▶ Assistir</a>
-            <a href={`list/add/${item.id}`} className="featured-infobutton">Mais Informações</a>
+            <a href={`list/add/${item.id}`} className="featured-infobutton"><InfoRoundedIcon style={{ fontSize: 15, marginRight: 3 }} />Mais informações</a>
           </div>
           <div className="featured-genres">
             <strong>Gêneros:</strong> {genres.join(', ')}
